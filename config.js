@@ -1,6 +1,6 @@
 module.exports = {
   journeyKey: 'Central Park',
-  projectId: 'journeybot-161320',
+  projectId: 'an id',
   ENV: 'production',
   verifyToken: 'test_bot',
   access_token: 'a token' ,
