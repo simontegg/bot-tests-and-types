@@ -13,7 +13,7 @@ yarn
 
 ## Static and runtime types in development
 
-This repo also implements an unusual approach to type checks. Using `flow-jsdoc` to convert plain JavaScript annotated with shorthand types in coments into flow annotations, `flow`, to perform static type analysis, and `documentation` js to generate docs.
+This repo also implements an unusual approach to type checks. Using `flow-jsdoc` to convert plain JavaScript annotated with shorthand types in coments into flow annotations, `flow` to perform static type analysis, and `documentation` js to generate docs.
 
 
 To see this in action run `npm run dev`. This will take a while the first time you run it. Then run `npm run dev-watch` and uncomment and save the code in `src/test-flow.js`
