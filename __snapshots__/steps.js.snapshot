@@ -1,0 +1,182 @@
+exports['start-Alice-"Start message" 1'] = {
+  "text": "When you arrive at the park entranceway tap \"Start\" to begin the game\n",
+  "quick_replies": [
+    {
+      "content_type": "text",
+      "title": "Arrived - Start Journey",
+      "payload": "GET_STARTED"
+    }
+  ]
+}
+
+exports['arrive-Alice-"Begin message" 1'] = {
+  "text": "I am  attempting to make its home in this park but the park has rats! Your goal is to discover and destroy the rat’s nest and protect my chicks! The rats nest is located at one of the 12 habitats throughout the park. Each habitat has a sign that looks like this. \n",
+  "attachment": {
+    "type": "image",
+    "payload": {
+      "url": "http://i.imgur.com/9EhNxbZ.jpg"
+    }
+  }
+}
+
+exports['arrive-Alice-active 1'] = [
+  "102944943575119",
+  "Alice",
+  0,
+  null
+]
+
+exports['arrive-Alice-\'Begin message\' 1'] = {
+  "text": "\nWelcome young Rat Trapper!\nUnfortunately the park is infested with rats!\nAnd a kākā has made a nest somewhere in the park\nYour mission is to find and bait the traps before the rats find the kākā nest."
+}
+
+exports['start-Alice-\'Start message\' 1'] = {
+  "text": "When you arrive at the park entranceway tap \"Begin Journey\" to begin the game",
+  "quick_replies": [
+    {
+      "content_type": "text",
+      "title": "Begin Journey",
+      "payload": "BEGIN_JOURNEY"
+    }
+  ]
+}
+
+exports['start notification-Bob-\'Alice has begun the journey\' 1'] = {
+  "text": "Someone has joined you in trapping rats"
+}
+
+exports['stop-Alice-\'Stop message\' 1'] = {
+  "text": "You have ended the journey."
+}
+
+exports['stop-Alice-inactive 1'] = "undefined"
+
+exports['stop-Bob-\'Alice has left the game\' 1'] = {
+  "text": "Someone has ended the game"
+}
+
+exports['reset-reset 1'] = {
+  "activeUsers": {}
+}
+
+exports['inactive interaction-Alice-\'Start message\' 1'] = {
+  "text": "When you arrive at the park entranceway tap \"Begin Journey\" to begin the game",
+  "quick_replies": [
+    {
+      "content_type": "text",
+      "title": "Begin Journey",
+      "payload": "BEGIN_JOURNEY"
+    }
+  ]
+}
+
+exports['arrive-Alice-2 1'] = true
+
+exports['arrive-Alice-subsequent-an image 1'] = {
+  "attachment": {
+    "type": "image",
+    "payload": {
+      "url": "http://i.imgur.com/9EhNxbZ.jpg"
+    }
+  }
+}
+
+exports['start notification-Bob-1 1'] = true
+
+exports['reset-reset-users 1'] = []
+
+exports['reset-reset-locations 1'] = [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+]
+
+exports['photo from active-Bob-\'You have found the totara" 1'] = {
+  "text": "you have found the totara tree"
+}
+
+exports['photo from active-Bob-found totara 1'] = {
+  "text": "you have found the tōtara tree"
+}
+
+exports['photo from active-Bob-subsequent-\'totara info\' 1'] = {
+  "text": "tōtara trees are tall and straight. A good tree for building waka."
+}
+
+exports['photo from active-Alice- \'Bob has found the totara\' 1'] = {
+  "text": "Bob has found the tōtara tree"
+}
+
+exports['location has traps-Bob-\'found totara\'-1 1'] = {
+  "text": "you have found the tōtara tree"
+}
+
+exports['location has traps-Bob-\'totara info\'-2 1'] = {
+  "text": "tōtara trees are tall and straight. A good tree for building waka."
+}
+
+exports['location has traps-Bob-\'bait trap? or pick up trap?\'-3 1'] = {
+  "attachment": {
+    "type": "template",
+    "payload": {
+      "template_type": "button",
+      "text": "There is 1 trap here",
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Pick up",
+          "payload": "PICKUP"
+        },
+        {
+          "type": "postback",
+          "title": "Bait",
+          "payload": "BAIT"
+        }
+      ]
+    }
+  }
+}
+
+exports['location has traps-Alice-\'Bob has found the totara\' 1'] = {
+  "text": "Bob has found the tōtara tree"
+}
+
+exports['bait-Bob-you have baited the trap at totara 1'] = {
+  "text": "The trap at the tōtara tree is now ready to catch a rat"
+}
+
+exports['bait-Alice-you have dropped a trap at totara and have 1 trap left 1'] = {
+  "text": "You have set a trap at the tōtara tree and have 1 trap left"
+}
+
+exports['pickup-Alice-you have picked up a trap from totara 1'] = {
+  "text": "You have picked up a trap from the tōtara tree and now have 1 trap"
+}
+
+exports['pickup-Alice-you have 1 trap 1'] = {
+  "text": "You have picked up a trap from the tōtara tree and now have 1 trap"
+}
+
+exports['pickup-Alice-you have picked up a trap from totara and have 1 trap 1'] = {
+  "text": "You have picked up a trap from the tōtara tree and now have 1 trap"
+}
+
+exports['arrive-Alice-instructions-2 1'] = {
+  "text": "\nWhen you find a sign use Messenger to take a picture of it \n\nand send it to me \n\nAnd I'll give you more options"
+}
+
+exports['arrive-Alice-image-3 1'] = {
+  "attachment": {
+    "type": "image",
+    "payload": {
+      "url": "http://i.imgur.com/9EhNxbZ.jpg"
+    }
+  }
+}
+

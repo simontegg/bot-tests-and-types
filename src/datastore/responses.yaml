@@ -1,0 +1,52 @@
+nester:
+  start: >
+    Welcome young journeyer! You’ve found my first quest!
+    As it so happens I’m on the hunt for a nest! My whanau are a bit
+    crowded over in Zealandia and this park seems like a great place to start a family! 
+    BUT, there are a few things I need to know before I’m sure it’s safe for my chicks.
+    If you wouldn’t mind, could you give me a hand to work that out?
+trapper: 
+  getStarted: >
+    When you arrive at the park entranceway tap "Begin Journey" to begin the game
+  beginJourney: >
+    Welcome young Rat Trapper! \n
+    Unfortunately the park is infested with rats! \n
+    And a kākā has made a nest somewhere in the park \n
+    Your mission is to find and bait the traps before the rats find the kākā nest.
+  instructions: >
+    When you find a sign use Messenger to take a picture of it \n
+    and send it to me \n
+    And I'll give you more options
+  endJourney: >
+    You have ended the journey.
+notifications: 
+  begun: has begun their journey
+  stopped: has ended their journey
+trapperReal:
+  beginJourney: >
+    I am  attempting to make its home in this park but the park has rats!
+    Your goal is to discover and destroy the rat’s nest and protect my chicks!
+    The rats nest is located at one of the 12 habitats throughout the park.
+    Each habitat has a sign that looks like this.   
+image:
+  textNotRecognized: I could not recognise this place. Please take another photo
+locations:
+  totara: the tōtara tree
+  manuka: a manuka tree
+  rata: a rātā tree
+  karaka: the karaka tree
+  cabbagetree: the cabbage tree
+  big tree: the big tree
+  punga: a punga
+  bridge: the bridge
+  gully: the gully
+locationInfo:
+  totara: tōtara trees are tall and straight. A good tree for building waka. 
+  manuka: manuka info
+  rata: rata info
+  karaka: karaka info
+  cabbagetree: cabbage tree info
+  big tree: big tree info
+  punga: punga
+  bridge: bridge info
+  gully: gully info
