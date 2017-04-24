@@ -6,8 +6,8 @@ This repo is an example of using `http-compose` and `pull-stream` as the base fo
 The application has one POST handler. POST requests from the chat platform (facebook messenger) are passed through a stack of middleware that perform logic checks on the request, the game status via the data base, mutating an in memory `context` object passed between middlewares.
 
 ```bash
-git clone 
-cd journeybot
+git clone git@github.com:simontegg/bot-tests-and-types.git
+cd bot-tests-amd-types
 yarn
 ```
 
